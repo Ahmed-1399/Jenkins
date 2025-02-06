@@ -1,0 +1,12 @@
+echo "Current Directory: ${pwd}"
+echo "list files in Workspace"
+ls -la
+
+
+#!/bin/bash
+echo "Running Bash from Github"
+cd "Task1"
+chmod +x script.sh
+./script.sh
+
+

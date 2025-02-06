@@ -1,0 +1,4 @@
+                   [ allow docker and kubectl inside jenkins pod ]
+1) Dockerfile in this Directory we use it to "Build Image" Contain "Docker & Kubectl Installed" 
+
+2) jenkins-deployment ---> we use it to Deploy jenkins as kubernates pod on minikube 
