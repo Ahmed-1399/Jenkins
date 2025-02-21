@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM nginx:alpine
 
 # Install Nginx
 RUN apk update && apk add --no-cache nginx
